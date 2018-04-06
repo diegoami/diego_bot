@@ -5,93 +5,28 @@
  - good afternoon
  - good evening
  - hello there
+## intent:goodbye
+ - goodbye
+ - see you
+ - see you later
+ - nice talking to you
+ - have a nice day
+ - see you later
+## intent:who_are_you
+ - who are you?
+ - what is your name?
+ - can you tell me more about yourself ?
+ - Introduce yourself
+## intent:mood_affirm
+ - yes
+ - indeed
+ - correct
+ - sounds good
+## intent:mood_deny
+ - no
+ - I don't think so
+ - no way
 
-      {
-        "text": "goodbye",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "see you",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "see you later",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "nice talking to you",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "have a nice day",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "see you later",
-        "intent": "goodbye",
-        "entities": []
-      },
-      {
-        "text": "who are you?",
-        "intent": "who_are_you",
-        "entities": []
-      },
-      {
-        "text": "what is your name?",
-        "intent": "who_are_you",
-        "entities": []
-      },
-      {
-        "text": "can you tell me more about yourself ?",
-        "intent": "who_are_you",
-        "entities": []
-      },
-      {
-        "text": "Introduce yourself",
-        "intent": "who_are_you",
-        "entities": []
-      },
-      {
-        "text": "yes",
-        "intent": "mood_affirm",
-        "entities": []
-      },
-      {
-        "text": "indeed",
-        "intent": "mood_affirm",
-        "entities": []
-      },
-      {
-        "text": "correct",
-        "intent": "mood_affirm",
-        "entities": []
-      },
-      {
-        "text": "sounds good",
-        "intent": "mood_affirm",
-        "entities": []
-      },
-      {
-        "text": "no",
-        "intent": "mood_deny",
-        "entities": []
-      },
-      {
-        "text": "I don't think so",
-        "intent": "mood_deny",
-        "entities": []
-      },
-      {
-        "text": "no way",
-        "intent": "mood_deny",
-        "entities": []
-      },
-      {
         "text": "Where do you work ?",
         "intent": "your_work",
         "entities": []
