@@ -1,5 +1,7 @@
 {
   "rasa_nlu_data": {
+
+
     "regex_features": [],
     "entity_synonyms": [],
     "common_examples": [
@@ -267,7 +269,122 @@
         "text": "I would like to be your girlfriend. ",
         "intent": "sex_proposal",
         "entities": []
+      },
+
+      {
+        "text": "I love you. ",
+        "intent": "sex_proposal",
+        "entities": []
+      },
+      {
+        "text": "Where were you born?",
+        "intent": "origin_where",
+        "entities": []
+      },
+      {
+        "text": "What is your country of origin?",
+        "intent": "origin_where",
+        "entities": []
+      },
+      {
+        "text": "Where are you from?",
+        "intent": "origin_where",
+        "entities": []
+      },
+      {
+        "text": "Are you actually form Italy?",
+        "intent": "origin_where",
+        "entities": []
+      },
+      {
+        "text": "What party do you support?",
+        "intent": "politics",
+        "entities": []
+      },
+      {
+        "text": "What are your politital opinions?",
+        "intent": "politics",
+        "entities": []
+      },
+      {
+        "text": "Are you left-wing or right-wing?",
+        "intent": "politics",
+        "entities": []
+      },
+      {
+        "text": "Are you a liberal, a conservative or a socialist?",
+        "intent": "politics",
+        "entities": []
+      },
+      {
+        "text": "What do you think of the last elections?",
+        "intent": "politics",
+        "entities": []
+      },
+      {
+        "text": "Do you believe in God?",
+        "intent": "religion",
+        "entities": []
+      },
+      {
+        "text": "Do you belong to an organized religion?",
+        "intent": "religion",
+        "entities": []
+      },
+      {
+        "text": "Are you a catholic or a protestant christian?",
+        "intent": "religion",
+        "entities": []
+      },
+      {
+        "text": "What do you think of Muslims or Islam?",
+        "intent": "religion",
+        "entities": []
+      },
+      {
+        "text": "Have you actually lived in Poland?",
+        "intent": "poland",
+        "entities": []
+      },
+      {
+        "text": "Have you worked in Cracow, Poland?",
+        "intent": "poland",
+        "entities": []
+      },
+      {
+        "text": "Have come that you speak Polish?",
+        "intent": "poland",
+        "entities": []
+      },
+      {
+        "text": "Can you tell me more about the time you spent in Poland?",
+        "intent": "poland",
+        "entities": []
+      },
+
+      {
+        "text": "How do you spend your time on internet?",
+        "intent": "internet",
+        "entities": []
+      },
+
+
+      {
+        "text": "What are your favourite sites?",
+        "intent": "internet",
+        "entities": []
+      },
+     {
+        "text": "Where do you like to surf?",
+        "intent": "internet",
+        "entities": []
+      },
+     {
+        "text": "How do you keep yourself up to date with stuff?",
+        "intent": "internet",
+        "entities": []
       }
     ]
+
   }
 }
