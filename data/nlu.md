@@ -26,271 +26,68 @@
  - no
  - I don't think so
  - no way
+## intent:your_work
+ - Where do you work ?
+ - How is your employment status ?
+ - where do you work now ?
+ - What is your profession?
+ - Can you tell me more about your career?
+## intent:your_hobbies
+ - Can you tell me about your hobbies ?
+ - What do you do in your spare time ?
+ - What do you do for fun ?
+ - What are your interests outside of work ?
+## intent:your_music
+ - What music do you like ?
+ - Can you show me your music blogs ?
+ - Can you point me to some music videos ?
+ - I would like to listen to some music.
+## intent:live_where
+ - Where do you live?
+ - Where are you located?
+ - In what town do you live ?
+ - Where can I visit you?
+ - Where can I find you?
+## intent:your_age
+ - How old are you ?
+ - I would like to know your age.
+ - Are you an old guy ?
+ - Are you still young ?
+## intent:sex_life
+ - Do you have a girlfriend ?
+ - are you gay?
+ - are you a virgin?
+ - What about your sex life ?
+## intent:sex_proposal
+ - will you marry me?
+ - Do you want to be my boyfriend?
+ - What about Sex ?
+ - I would like to be your girlfriend. 
+ - I love you. 
+## intent:origin_where
+ - Where were you born?
+ - What is your country of origin?
+ - Where are you from?
+ - Are you actually from Italy?
+## intent:politics
+ - What party do you support?
+ - What are your political opinions?
+ - Are you left-wing or right-wing?
+ - Are you a liberal, a conservative or a socialist?
+ - What do you think of the last elections?
+## intent:religion
+ - Do you believe in God?
+ - Do you belong to an organized religion?
+ - Are you a catholic or a protestant christian?
+ - What do you think of Muslims or Islam?
+## intent:poland
+ - Have you actually lived in Poland?
+ - Have you worked in Cracow, Poland?
+ - Have come that you speak Polish?
+ - Can you tell me more about the time you spent in Poland?
+## intent:internet
+ - How do you spend your time on internet?
+ - What are your favourite sites?
+ - Where do you like to surf?
+ - How do you keep yourself up to date with stuff?
 
-        "text": "Where do you work ?",
-        "intent": "your_work",
-        "entities": []
-      },
-      {
-        "text": "How is your employment status ?",
-        "intent": "your_work",
-        "entities": []
-      },
-      {
-        "text": "where do you work now ?",
-        "intent": "your_work",
-        "entities": []
-      },
-      {
-        "text": "What is your profession?",
-        "intent": "your_work",
-        "entities": []
-      },
-      {
-        "text": "Can you tell me more about your career?",
-        "intent": "your_work",
-        "entities": []
-      },
-      {
-        "text": "Can you tell me about your hobbies ?",
-        "intent": "your_hobbies",
-        "entities": []
-      },
-      {
-        "text": "What do you do in your spare time ?",
-        "intent": "your_hobbies",
-        "entities": []
-      },
-      {
-        "text": "What do you do for fun ?",
-        "intent": "your_hobbies",
-        "entities": []
-      },
-      {
-        "text": "What are your interests outside of work ?",
-        "intent": "your_hobbies",
-        "entities": []
-      },
-      {
-        "text": "What music do you like ?",
-        "intent": "your_music",
-        "entities": []
-      },
-      {
-        "text": "Can you show me your music blogs ?",
-        "intent": "your_music",
-        "entities": []
-      },
-      {
-        "text": "Can you point me to some music videos ?",
-        "intent": "your_music",
-        "entities": []
-      },
-      {
-        "text": "I would like to listen to some music.",
-        "intent": "your_music",
-        "entities": []
-      },
-      {
-        "text": "Where do you live?",
-        "intent": "live_where",
-        "entities": []
-      },
-      {
-        "text": "Where are you located?",
-        "intent": "live_where",
-        "entities": []
-      },
-      {
-        "text": "In what town do you live ?",
-        "intent": "live_where",
-        "entities": []
-      },
-      {
-        "text": "Where can I visit you?",
-        "intent": "live_where",
-        "entities": []
-      },
-      {
-        "text": "Where can I find you?",
-        "intent": "live_where",
-        "entities": []
-      },
-      {
-        "text": "How old are you ?",
-        "intent": "your_age",
-        "entities": []
-      },
-      {
-        "text": "I would like to know your age.",
-        "intent": "your_age",
-        "entities": []
-      },
-      {
-        "text": "Are you an old guy ?",
-        "intent": "your_age",
-        "entities": []
-      },
-      {
-        "text": "Are you still young ?",
-        "intent": "your_age",
-        "entities": []
-      },
-      {
-        "text": "Do you have a girlfriend ?",
-        "intent": "sex_life",
-        "entities": []
-      },
-      {
-        "text": "are you gay?",
-        "intent": "sex_life",
-        "entities": []
-      },
-      {
-        "text": "are you a virgin?",
-        "intent": "sex_life",
-        "entities": []
-      },
-      {
-        "text": "What about your sex life ?",
-        "intent": "sex_life",
-        "entities": []
-      },
-      {
-        "text": "will you marry me?",
-        "intent": "sex_proposal",
-        "entities": []
-      },
-      {
-        "text": "Do you want to be my boyfriend?",
-        "intent": "sex_proposal",
-        "entities": []
-      },
-      {
-        "text": "What about Sex ?",
-        "intent": "sex_proposal",
-        "entities": []
-      },
-      {
-        "text": "I would like to be your girlfriend. ",
-        "intent": "sex_proposal",
-        "entities": []
-      },
-
-      {
-        "text": "I love you. ",
-        "intent": "sex_proposal",
-        "entities": []
-      },
-      {
-        "text": "Where were you born?",
-        "intent": "origin_where",
-        "entities": []
-      },
-      {
-        "text": "What is your country of origin?",
-        "intent": "origin_where",
-        "entities": []
-      },
-      {
-        "text": "Where are you from?",
-        "intent": "origin_where",
-        "entities": []
-      },
-      {
-        "text": "Are you actually form Italy?",
-        "intent": "origin_where",
-        "entities": []
-      },
-      {
-        "text": "What party do you support?",
-        "intent": "politics",
-        "entities": []
-      },
-      {
-        "text": "What are your politital opinions?",
-        "intent": "politics",
-        "entities": []
-      },
-      {
-        "text": "Are you left-wing or right-wing?",
-        "intent": "politics",
-        "entities": []
-      },
-      {
-        "text": "Are you a liberal, a conservative or a socialist?",
-        "intent": "politics",
-        "entities": []
-      },
-      {
-        "text": "What do you think of the last elections?",
-        "intent": "politics",
-        "entities": []
-      },
-      {
-        "text": "Do you believe in God?",
-        "intent": "religion",
-        "entities": []
-      },
-      {
-        "text": "Do you belong to an organized religion?",
-        "intent": "religion",
-        "entities": []
-      },
-      {
-        "text": "Are you a catholic or a protestant christian?",
-        "intent": "religion",
-        "entities": []
-      },
-      {
-        "text": "What do you think of Muslims or Islam?",
-        "intent": "religion",
-        "entities": []
-      },
-      {
-        "text": "Have you actually lived in Poland?",
-        "intent": "poland",
-        "entities": []
-      },
-      {
-        "text": "Have you worked in Cracow, Poland?",
-        "intent": "poland",
-        "entities": []
-      },
-      {
-        "text": "Have come that you speak Polish?",
-        "intent": "poland",
-        "entities": []
-      },
-      {
-        "text": "Can you tell me more about the time you spent in Poland?",
-        "intent": "poland",
-        "entities": []
-      },
-
-      {
-        "text": "How do you spend your time on internet?",
-        "intent": "internet",
-        "entities": []
-      },
-
-
-      {
-        "text": "What are your favourite sites?",
-        "intent": "internet",
-        "entities": []
-      },
-     {
-        "text": "Where do you like to surf?",
-        "intent": "internet",
-        "entities": []
-      },
-     {
-        "text": "How do you keep yourself up to date with stuff?",
-        "intent": "internet",
-        "entities": []
-      }
-    ]
-
-  }
-}
