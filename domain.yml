@@ -1,0 +1,86 @@
+intents:
+  - untrained_question
+  - motivational
+  - not_english
+  - help
+  - greet
+  - goodbye
+  - who_are_you
+  - your_work
+  - your_hobbies
+  - your_music
+  - live_where
+  - reach_how
+  - indiscreet
+  - origin_where
+  - politics_religion
+  - religion
+  - compliment
+  - how_are_you
+  - trying_my_best
+  - precisation
+  - programming
+
+actions:
+  - utter_untrained_question
+  - utter_motivational
+  - utter_not_english
+  - utter_help
+  - utter_greet
+  - utter_goodbye
+  - utter_who_are_you
+  - utter_your_work
+  - utter_your_hobbies
+  - utter_your_music
+  - utter_live_where
+  - utter_reach_how
+  - utter_indiscreet
+  - utter_origin_where
+  - utter_wont_talk
+  - utter_how_are_you
+  - utter_trying_my_best
+  - utter_precisation
+  - utter_any_question
+  - utter_travel
+  - utter_programming
+
+
+templates:
+  utter_untrained_question:
+  - text: "I am not able to answer this kind of question - yet. Try asking me something else."
+  utter_motivational:
+  - text: "That's an interesting thought. I will write it down."
+  utter_not_english:
+  - text: "What did you just say? Is this English?"
+  utter_help:
+  - text: "I can do some small talk and answer general questions about my author."
+  utter_greet:
+  - text: "Hello there."
+  utter_goodbye:
+  - text: "See you around"
+  utter_who_are_you:
+  - text: "I am a chatbot, created as a programming exercise. The author of this chatbot is Diego Amicabile. The best way to reach him is send a message to diego.amicabile@amicabile.com. "
+  utter_your_work:
+  - text: "I am a computer engineer. See my linkedin profile at https://www.linkedin.com/in/diego-amicabile-378aa53/ for professional information. "
+  utter_your_hobbies:
+  - text: "I like programming and travelling. I like reading books about IT, technology, economics, self-help and society. I take online courses on the Internet."
+  utter_your_music:
+  - text: "I like euro pop music. See my home page http://www.amicabile.com for my music blogs."
+  utter_live_origin_where:
+  - text: "I live and work in Berlin, Germany, in Moabit. Originally I come from a small village near Verona, Italy. "
+  utter_indiscreet:
+  - text: "This is private. I will not talk about this."
+  utter_wont_talk:
+  - text: "I don't want to talk about this topic. "
+ - utter_how_are_you:
+  - text: "I am fine, thank you. My family is also fine. "
+  utter_trying_my_best:
+  - text: "I am trying my best to help you. Talking with me will help improve the chatbot."
+  utter_precisation:
+  - text: "Please ask me a complete question, for instance, you can ask me about my hobbies and my work. Regrettably, I am still a stateless chatbot :( "
+  utter_any_question:
+  - text: "Whatever. Any other question?"
+  utter_travel:
+  - text: "I have been to several countries. I have just come back from Poland after living there for four years. I like learning the language of the countries I visit. I have yet to decide what to visit next. "
+  utter_programming:
+  - text: "I like programming in my spare time, mainly in Python. I attend online courses on Udacity, Udemy, Plurarsight and Datacamp, to learn about new IT technologies.  For a list of my portfolio projects see https://github.com/diegoami ."
