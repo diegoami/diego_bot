@@ -24,6 +24,7 @@
  - If you are not part of the solution, you are part of the problem.
  - Never ascribe to malice, that which can be explained by stupidity.
  - Every country has the government it deserves.
+ - Napoleon should have not invaded Russia.
 ## intent:not_english
  - Sprichst du Deutsch?
  - Parli italiano?
@@ -53,6 +54,7 @@
  - good afternoon
  - good evening
  - hello there
+ - Knock Knock
 ## intent:goodbye
  - goodbye
  - see you
@@ -60,6 +62,11 @@
  - nice talking to you
  - have a nice day
  - see you later
+ - I will send him an email
+ - I will take contact with him.
+ - Ok, we are done here.
+ - Thank you for talking with me.
+ - End of conversation.
 ## intent:mood_affirm_deny
  - Yes
  - Indeed
@@ -69,7 +76,12 @@
  - I don't think so
  - no way
  - Certainly not.
+ - I think you should visit Croatia.
+ - You should go out and have some fun.
+ - This is what I am doing right now.
+ - I don't think this chatbot will ever improve.
 ## intent:who_are_you
+ - Tell me about your author.
  - What is the purpose of this bot?
  - Is this an intelligent chatbot?
  - Why have you made this?
@@ -84,12 +96,14 @@
  - Who made this chatbot?
  - I would like to have more information about your person.
  - Can I be your friend on facebook ?
+ - Does your author have a facebook ?
  - What is the best way to reach you ?
  - What is your email ?
  - How can I send you a message ?
  - How do I contact you ?
  - Do you use social media ?
  - May I have your telephone number or your Whatsapp?
+ - Tell me about yourself.
 ## intent:your_work
  - I am interested in your professional competences.
  - I have a job offer you could be interested in.
@@ -195,6 +209,8 @@
  - What's hanging?
  - How is your mother and your father ?
 ## intent:trying_my_best
+ - I am wasting my time talking to you
+ - You seem to have problems with parts of speech.
  - This chatbot is so awesome.
  - You are so great.
  - I think you are a very cool chatbot.
@@ -229,6 +245,7 @@
  - This is unclear.
  - And?
  - So what?
+ - What exactly?
 ## intent:travel
  - Have you actually lived in Poland?
  - Have you worked in Cracow, Poland?
@@ -264,5 +281,6 @@
  - Do you know a good course about Tensorflow?
  - I would like to read a good tutorial about NLP, that is, about Natural Language Processing.
  - What kind of online course did you attends?
+ - What online courses ?
 
 

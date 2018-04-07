@@ -5,20 +5,18 @@ intents:
   - help
   - greet
   - goodbye
+  - mood_affirm_deny
   - who_are_you
   - your_work
   - your_hobbies
   - your_music
-  - live_where
-  - reach_how
+  - live_origin_where
   - indiscreet
-  - origin_where
   - politics_religion
-  - religion
-  - compliment
   - how_are_you
   - trying_my_best
   - precisation
+  - travel
   - programming
 
 actions:
@@ -32,18 +30,21 @@ actions:
   - utter_your_work
   - utter_your_hobbies
   - utter_your_music
-  - utter_live_where
-  - utter_reach_how
+  - utter_live_origin_where
   - utter_indiscreet
-  - utter_origin_where
   - utter_wont_talk
   - utter_how_are_you
   - utter_trying_my_best
+  - utter_trying_my_best_2
   - utter_precisation
   - utter_any_question
   - utter_travel
   - utter_programming
-
+  - utter_help_precisation
+  - utter_all_topic
+  - utter_all_deaf
+  - utter_ironic
+  - utter_on_purpose
 
 templates:
   utter_untrained_question:
@@ -63,7 +64,7 @@ templates:
   utter_your_work:
   - text: "I am a computer engineer. See my linkedin profile at https://www.linkedin.com/in/diego-amicabile-378aa53/ for professional information. "
   utter_your_hobbies:
-  - text: "I like programming and travelling. I like reading books about IT, technology, economics, self-help and society. I take online courses on the Internet."
+  - text: "I like programming, music and travelling. I like reading books about IT, technology, economics, self-help and society. I take online courses."
   utter_your_music:
   - text: "I like euro pop music. See my home page http://www.amicabile.com for my music blogs."
   utter_live_origin_where:
@@ -72,15 +73,28 @@ templates:
   - text: "This is private. I will not talk about this."
   utter_wont_talk:
   - text: "I don't want to talk about this topic. "
- - utter_how_are_you:
+  utter_how_are_you:
   - text: "I am fine, thank you. My family is also fine. "
   utter_trying_my_best:
   - text: "I am trying my best to help you. Talking with me will help improve the chatbot."
+  utter_trying_my_best_2:
+  - text: "Please be aware that my knowledge is limited and you cannot talk to me like with an human."
+
   utter_precisation:
-  - text: "Please ask me a complete question, for instance, you can ask me about my hobbies and my work. Regrettably, I am still a stateless chatbot :( "
+  - text: "Please ask me a complete question."
   utter_any_question:
   - text: "Whatever. Any other question?"
   utter_travel:
   - text: "I have been to several countries. I have just come back from Poland after living there for four years. I like learning the language of the countries I visit. I have yet to decide what to visit next. "
   utter_programming:
   - text: "I like programming in my spare time, mainly in Python. I attend online courses on Udacity, Udemy, Plurarsight and Datacamp, to learn about new IT technologies.  For a list of my portfolio projects see https://github.com/diegoami ."
+  utter_help_precisation:
+  - text: "For instance, you can ask me about my hobbies or my work."
+  utter_all_topic:
+  - text: "That is pretty much all I can tell you about this topic. Any other question?"
+  utter_all_deaf:
+  - text: "I think I made myself clear that I will not talk about this kind of topic. Any other question?"
+  utter_ironic:
+  - text: "Awesome. You are so smart."
+  utter_on_purpose:
+  - text: "Are you doing that on purpose?"
