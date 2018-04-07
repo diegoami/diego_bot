@@ -230,6 +230,7 @@
  - You suck.
  - You are an idiot.
  - Go fuck yourself.
+ - I want to fuck you in the ass.
  - You are such a retard.
  - You are a useless piece of shit.
  - You are not even able to answer a stupid question.
@@ -247,7 +248,7 @@
  - So you cannot answer my question?
  - That is not what I asked.
  - This is unclear.
- -  I don't think this chatbot will ever improve.
+ - I don't think this chatbot will ever improve.
 ## intent:precisation
  - For instance?
  - Such as?
@@ -284,6 +285,7 @@
  - Do you speak several languages ?
  - What country did you like most ?
  - What is your favourite country?
+ - Tell me more about travelling.
 ## intent:programming
  - Can you show me your portfolio projects?
  - Do you have a github account?
