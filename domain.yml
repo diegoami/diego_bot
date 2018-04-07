@@ -45,6 +45,8 @@ actions:
   - utter_all_deaf
   - utter_ironic
   - utter_on_purpose
+  - utter_move_on
+
 
 templates:
   utter_untrained_question:
@@ -58,7 +60,7 @@ templates:
   utter_greet:
   - text: "Hello there."
   utter_goodbye:
-  - text: "See you around"
+  - text: "Great. See you around"
   utter_who_are_you:
   - text: "I am a chatbot, created as a programming exercise. The author of this chatbot is Diego Amicabile. The best way to reach him is send a message to diego.amicabile@amicabile.com. "
   utter_your_work:
@@ -83,7 +85,7 @@ templates:
   utter_precisation:
   - text: "Please ask me a complete question."
   utter_any_question:
-  - text: "Whatever. Any other question?"
+  - text: "Sure. Any other question?"
   utter_travel:
   - text: "I have been to several countries. I have just come back from Poland after living there for four years. I like learning the language of the countries I visit. I have yet to decide what to visit next. "
   utter_programming:
@@ -98,3 +100,5 @@ templates:
   - text: "Awesome. You are so smart."
   utter_on_purpose:
   - text: "Are you doing that on purpose?"
+  utter_move_on:
+  - text: "Can we please move on? Ask me another kind of question, please"

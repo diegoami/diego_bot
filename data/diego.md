@@ -9,6 +9,7 @@
  - If animals could talk, which would be the rudest?
  - If a word is misspelled in the dictionary, how would we ever know?
  - Why does a round pizza come in a square box?
+ - What do you mean by saying you are interested in technology ?
 ## intent:motivational
  - Always deliver more than expected.
  - Roses are red, the sky is blue.
@@ -62,24 +63,26 @@
  - nice talking to you
  - have a nice day
  - see you later
- - I will send him an email
+ - I will send him an email.
  - I will take contact with him.
  - Ok, we are done here.
  - Thank you for talking with me.
  - End of conversation.
+ - Ok, I will check that site.
+ - Thank you for the information you gave me.
 ## intent:mood_affirm_deny
  - Yes
  - Indeed
  - Correct
  - Sounds good
- - no
+ - No.
  - I don't think so
  - no way
  - Certainly not.
  - I think you should visit Croatia.
  - You should go out and have some fun.
  - This is what I am doing right now.
- - I don't think this chatbot will ever improve.
+ - No shit.
 ## intent:who_are_you
  - Tell me about your author.
  - What is the purpose of this bot?
@@ -87,7 +90,7 @@
  - Why have you made this?
  - What is there behind this conversation interface?
  - I would like to know more about this bot.
- - What is this thing I am using.
+ - What is this thing I am using ?
  - who are you?
  - what is your name?
  - can you tell me more about yourself ?
@@ -119,8 +122,14 @@
  - Can you see your LinkedIn profile?
  - Are you currently available for employment ?
  - I am trying to fill a position for a Data Scientist and for a Data Engineer.
+ - Are you a good Computer Engineer ?
+ - So you do have a LinkedIn profile ?
+ - Tell me about your work.
+ - What about your work ?
+ - What is your occupation ?
 ## intent:your_hobbies
  - Can you tell me about your hobbies ?
+ - What are your hobbies ?
  - What do you do in your spare time ?
  - What do you do for fun ?
  - What are your interests outside of work ?
@@ -147,6 +156,7 @@
  - Do you like pop music?
  - You listen to russian, polish, croatian and rumanian music.
  - What italian or french music do you know?
+ - So you have music blogs.
 ## intent:live_origin_where
  - Where do you live?
  - Where are you located?
@@ -187,12 +197,14 @@
  - Are you an Italian stallion?
 ## intent:politics_religion
  - What party do you support?
+ - Let's talk about politics.
  - What are your political opinions?
  - Are you a fascist or a communist?
  - Do you support the monarchy or the republic?
  - Are you left-wing or right-wing?
  - Are you a liberal, a conservative or a socialist?
  - What do you think of the last elections?
+ - What do you think about the latest elections?
  - Do you believe in God?
  - Do you belong to an organized religion?
  - Are you a Satanist?
@@ -232,6 +244,10 @@
  - You already told me that.
  - I don't see the point of this chatbot.
  - What the fuck?
+ - So you cannot answer my question?
+ - That is not what I asked.
+ - This is unclear.
+ -  I don't think this chatbot will ever improve.
 ## intent:precisation
  - For instance?
  - Such as?
@@ -242,10 +258,13 @@
  - That does not make any sense.
  - I don't know what to say.
  - Are you sure?
- - This is unclear.
  - And?
  - So what?
  - What exactly?
+ - Why?
+ - What else ?
+ - Tell me more.
+ - Go on.
 ## intent:travel
  - Have you actually lived in Poland?
  - Have you worked in Cracow, Poland?
@@ -263,6 +282,8 @@
  - Can you recommend me a town or a place I should visit?
  - Do you learn the languages of the countries you visit?
  - Do you speak several languages ?
+ - What country did you like most ?
+ - What is your favourite country?
 ## intent:programming
  - Can you show me your portfolio projects?
  - Do you have a github account?
