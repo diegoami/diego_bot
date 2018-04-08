@@ -5,6 +5,10 @@ from __future__ import unicode_literals
 
 import logging
 
+import argparse
+import logging
+import warnings
+
 from rasa_core.channels import HttpInputChannel
 from rasa_core import utils
 from rasa_core.agent import Agent
@@ -34,15 +38,16 @@ class SimpleWebBot(HttpInputComponent):
             text = payload.get("message", None)
             out = CollectingOutputChannel()
             on_new_message(UserMessage(text, out, sender_id))
-            responses = [m["text"] for m in out.messages]
+            print(out.messages)
+            responses = [m["text"] if "text" in m else m[1] for m in out.messages]
             return jsonify(responses)
 
         return custom_webhook
 
 
-def run(serve_forever=True):
+def run(serve_forever=True, model_name='current_sp'):
     # path to your NLU model
-    interpreter = RasaNLUInterpreter("models/nlu/default/current_sp")
+    interpreter = RasaNLUInterpreter("models/nlu/default/"+model_name)
     # path to your dialogues models
     agent = Agent.load("models/dialogue", interpreter=interpreter)
     # http api endpoint for responses
@@ -52,4 +57,14 @@ def run(serve_forever=True):
     return agent
 
 if __name__ == '__main__':
-    run()
+    parser = argparse.ArgumentParser(
+        description='Starts the diego bot server')
+
+    parser.add_argument('--fixed_model_name',
+                        help="If present, a model will always be persisted "
+                             "in the specified directory instead of creating "
+                             "a folder like 'model_20171020-160213'")
+
+    cmdline_args = parser.parse_args()
+
+    run(model_name=cmdline_args.fixed_model_name)

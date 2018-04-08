@@ -140,9 +140,9 @@
 
 ## your_hobbies_2d:
 > _your_hobbies
-* your_travel
+* travel
   - utter_travel
-> _your_travel
+> _travel
 
 ## your_music:
 * your_music
@@ -309,13 +309,13 @@
 
 ## programming_2b
 > _programming
-* precision
+* precisation
   - utter_your_work
 > _your_work
 
 ## programming_2c
 > _programming
-* your_hobby
+* your_hobbies
   - utter_your_music
 > _your_music
 
@@ -327,6 +327,6 @@
 
 ## programming_2e
 > _programming
-* your_travle
+* travel
   - utter_travel
 > _travel
