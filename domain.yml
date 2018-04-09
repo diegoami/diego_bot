@@ -4,7 +4,6 @@ intents:
   - not_english
   - help
   - greet
-  - goodbye
   - mood_affirm_deny
   - who_are_you
   - your_work
@@ -13,7 +12,6 @@ intents:
   - live_origin_where
   - indiscreet
   - politics_religion
-  - how_are_you
   - trying_my_best
   - precisation
   - travel
@@ -25,7 +23,6 @@ actions:
   - utter_not_english
   - utter_help
   - utter_greet
-  - utter_goodbye
   - utter_who_are_you
   - utter_your_work
   - utter_your_hobbies
@@ -33,7 +30,6 @@ actions:
   - utter_live_origin_where
   - utter_indiscreet
   - utter_wont_talk
-  - utter_how_are_you
   - utter_trying_my_best
   - utter_trying_my_best_2
   - utter_precisation
@@ -58,9 +54,7 @@ templates:
   utter_help:
   - text: "I can do some small talk and answer general questions about my author."
   utter_greet:
-  - text: "Hello there."
-  utter_goodbye:
-  - text: "Great. See you around"
+  - text: "Hello there. I am fine, and my family is also fine."
   utter_who_are_you:
   - text: "I am a chatbot, created as a programming exercise. The author of this chatbot is Diego Amicabile. The best way to reach him is send a message to diego.amicabile@amicabile.com. "
   utter_your_work:
@@ -85,7 +79,7 @@ templates:
   utter_precisation:
   - text: "Please ask me a complete question."
   utter_any_question:
-  - text: "Sure. Any other question?"
+  - text: "Sure. Let me know if you have other questions."
   utter_travel:
   - text: "I have been to several countries. I have just come back from Poland after living there for four years. I like learning the language of the countries I visit. I have yet to decide what to visit next. "
   utter_programming:

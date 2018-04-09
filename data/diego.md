@@ -56,20 +56,12 @@
  - good evening
  - hello there
  - Knock Knock
-## intent:goodbye
- - goodbye
- - see you
- - see you later
- - nice talking to you
- - have a nice day
- - see you later
- - I will send him an email.
- - I will take contact with him.
- - Ok, we are done here.
- - Thank you for talking with me.
- - End of conversation.
- - Ok, I will check that site.
- - Thank you for the information you gave me.
+ - How are you?
+ - How was your day?
+ - What's up?
+ - How are things going?
+ - What's hanging?
+ - How is your mother and your father ?
 ## intent:mood_affirm_deny
  - Yes
  - Indeed
@@ -79,10 +71,15 @@
  - I don't think so
  - no way
  - Certainly not.
- - I think you should visit Croatia.
- - You should go out and have some fun.
- - This is what I am doing right now.
  - No shit.
+ - Possibly
+ - Maybe
+ - There is a chance
+ - Might be the case
+ - goodbye
+ - see you later
+ - nice talking to you
+ - have a nice day
 ## intent:who_are_you
  - Tell me about your author.
  - What is the purpose of this bot?
@@ -157,6 +154,7 @@
  - You listen to russian, polish, croatian and rumanian music.
  - What italian or french music do you know?
  - So you have music blogs.
+ - Do you ever listen to jazz, rock or heavy metal ?
 ## intent:live_origin_where
  - Where do you live?
  - Where are you located?
@@ -213,13 +211,6 @@
  - What do you think of Muslims or Islam?
  - It seems to me that you do not want to talk about politics.
  - Is religion a topic you don't want to talk about ?
-## intent:how_are_you
- - How are you?
- - How was your day?
- - What's up?
- - How are things going?
- - What's hanging?
- - How is your mother and your father ?
 ## intent:trying_my_best
  - I am wasting my time talking to you
  - You seem to have problems with parts of speech.
@@ -249,6 +240,7 @@
  - That is not what I asked.
  - This is unclear.
  - I don't think this chatbot will ever improve.
+ - Loser
 ## intent:precisation
  - For instance?
  - Such as?

@@ -1,0 +1,22 @@
+FROM diego-bot-base
+#
+ENV DIEGO_BOT_DOCKER="YES" \
+    DIEGO_BOT_HOME=/app \
+    DIEGO_BOT_PYTHON_PACKAGES=/usr/local/lib/python3.6/dist-packages
+
+WORKDIR ${DIEGO_BOT_HOME}
+
+COPY . ${DIEGO_BOT_HOME}
+COPY ./data ${DIEGO_BOT_HOME}/data
+COPY ./config ${DIEGO_BOT_HOME}/config
+
+RUN python -m rasa_nlu.train -c config/config_spacy.json -d data/diego.md --path models/nlu --fixed_model_name current_nc
+
+RUN python -m rasa_core.train -s data/stories.md -d domain.yml -o models/dialogue --epochs 200
+
+VOLUME ["/app/projects", "/app/logs", "/app/models/"]
+
+EXPOSE 5004
+EXPOSE 5000
+
+CMD ["python","simple_web_bot.py","--fixed_model_name", "current_nc"]

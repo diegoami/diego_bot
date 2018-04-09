@@ -1,10 +1,10 @@
 ## untrained_question:
 * untrained_question
   - utter_untrained_question
+>  _untrained_question
 
 ## untrained_question_2:
-* untrained_question
-  - utter_untrained_question
+>  _untrained_question
 * untrained_question
   - utter_trying_my_best_2
 
@@ -27,18 +27,17 @@
 ## not_english:
 * not_english
   - utter_not_english
+> _not_english
 
 ## not_english_2:
-* not_english
-  - utter_not_english
+> _not_english
 * not_english
   - utter_ironic
+> _not_english_2
+
 
 ## not_english_3:
-* not_english
-  - utter_not_english
-* not_english
-  - utter_ironic
+> _not_english_2
 * not_english
   - utter_on_purpose
 
@@ -77,10 +76,6 @@
 * greet
   - utter_greet
 
-## goodbye:
-* goodbye
-  - utter_goodbye
-
 ## who_are_you:
 * who_are_you
   - utter_who_are_you
@@ -98,6 +93,31 @@
   - utter_your_work
 > _your_work
 
+## who_are_you_2c:
+> _who_are_you
+* your_hobbies
+  - utter_your_hobbies
+> _your_hobbies
+
+## who_are_you_2d:
+> _who_are_you
+* your_music
+  - utter_your_music
+> _your_music
+
+## who_are_you_2e:
+> _who_are_you
+* travel
+  - utter_travel
+> _your_travel
+
+
+## who_are_you_2f:
+> _who_are_you
+* live_origin_where
+  - utter_live_origin_where
+> _live_origin_where
+
 ## your_work:
 * your_work
   - utter_your_work
@@ -109,11 +129,29 @@
   - utter_programming
 > _programming
 
-## your_work_2b:
+## your_work_2c:
 > _your_work
-* precisation
-  - utter_programming
-> _programming
+* your_hobbies
+  - utter_your_hobbies
+> _your_hobbies
+
+## your_work_2d:
+> _your_work
+* travel
+  - utter_travel
+> _travel
+
+## your_work_2e:
+> _your_work
+* your_music
+  - utter_your_music
+> _your_music
+
+## your_work_2f:
+> _your_work
+* live_origin_where
+  - utter_live_origin_where
+> _live_origin_where
 
 ## your_hobbies:
 * your_hobbies
@@ -143,6 +181,12 @@
 * travel
   - utter_travel
 > _travel
+
+## your_hobbies_2d:
+> _your_hobbies
+* live_origin_where
+  - utter_live_origin_where
+> _live_origin_where
 
 ## your_music:
 * your_music
@@ -184,7 +228,9 @@
 ## live_origin_where_2b:
 > _live_origin_where
 * precisation
-  - utter_all_topic
+  - utter_who_are_you
+> _who_are_you
+
 
 ## live_origin_where_2c:
 > _live_origin_where
@@ -197,6 +243,12 @@
 * programming
   - utter_programming
 > _programming
+
+## live_origin_where_2e:
+> _live_origin_where
+* travel
+  - utter_travel
+> _travel
 
 ## travel:
 * travel
@@ -225,6 +277,12 @@
   - utter_your_hobbies
 > _your_hobbies
 
+## travel_2d:
+> _travel
+* live_origin_where
+  - utter_live_origin_where
+> _live_origin_where
+
 ## indiscreet:
 * indiscreet
   - utter_indiscreet
@@ -243,7 +301,6 @@
 * indiscreet
   - utter_on_purpose
 
-
 ## politics_religion:
 * politics_religion
   - utter_wont_talk
@@ -261,22 +318,6 @@
   - utter_move_on
 * politics_religion
   - utter_on_purpose
-
-## how_are_you:
-* how_are_you
-  - utter_how_are_you
-
-## how_are_you_2:
-* how_are_you
-  - utter_how_are_you
-* how_are_you
-  - utter_all_topic
-
-## how_are_you_2b:
-* how_are_you
-  - utter_how_are_you
-* precisation
-  - utter_all_topic
 
 ## trying_my_best
 * trying_my_best

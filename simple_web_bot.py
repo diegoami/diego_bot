@@ -67,4 +67,4 @@ if __name__ == '__main__':
 
     cmdline_args = parser.parse_args()
 
-    run(model_name=cmdline_args.fixed_model_name)
+    run(model_name=cmdline_args.fixed_model_name )
