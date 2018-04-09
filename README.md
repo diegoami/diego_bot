@@ -1,3 +1,11 @@
+# LIBRARY REQUIREMENTS
+
+The requirements are 'requirements.txt' if you have cuda and 'requirements_nc.txt' if you don't.
+I have been developing on a locally compiled version of tensorflow and on checkout repositories of rasa_nlu and rasa_core.
+Anyway, the model are quick to compile also without GPU, so you will probably want to use requirements_nc.txt
+
+
+
 # TRAIN RASA_NLU
 
 Train
@@ -7,7 +15,7 @@ python -m rasa_nlu.train -c config/config_spacy.json -d data/diego.md --path mod
 
 Evaluate
 ```
-python -m rasa_nlu.evaluate -c config/config_spacy.json -d data/diego.md -m models/nlu/default/current_sp```
+python -m rasa_nlu.evaluate -c config/config_spacy.json -d data/diego.md -m models/nlu/default/current_sp
 ```
 
 # START RASA_NLU SERVER

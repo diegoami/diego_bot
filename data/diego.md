@@ -10,6 +10,10 @@
  - If a word is misspelled in the dictionary, how would we ever know?
  - Why does a round pizza come in a square box?
  - What do you mean by saying you are interested in technology ?
+ - What is the ugliest vegetable?
+ - When is lying the right thing to do?
+ - What book do you wish would be turned into a movie?
+ - What’s the weirdest thing that has happened to you in a car?
 ## intent:motivational
  - Always deliver more than expected.
  - Roses are red, the sky is blue.
@@ -22,19 +26,24 @@
  - Don't ask what your country can do for you, do it yourself.
  - Patriotism is believing that your country is better than the other because you were born in it.
  - A ship is safe in a port, but it was not built for that.
+ - A woman is like a tea bag; you never know how strong it is until it's in hot water
  - If you are not part of the solution, you are part of the problem.
  - Never ascribe to malice, that which can be explained by stupidity.
  - Every country has the government it deserves.
  - Napoleon should have not invaded Russia.
+ - We may encounter many defeats but we must not be defeated.
+ - If you are not part of the solution, you are part of the problem.
 ## intent:not_english
  - Sprichst du Deutsch?
+ - Ich bin ein Berliner
  - Parli italiano?
+ - Chi la fa l'aspetti.
  - Parlez-vous Francais?
  - Dov'e la supercazzola?
  - Wer nicht wagt, gewinnt auch nicht.
  - Mówisz po polsku?
  - Che cazzo vuoi ?
- - Говоришь по-русски?
+ - Я читаю любовь, изучаю любовь.
  - Merhaba.
  - Gutta cavat lapidem
 ## intent:help
@@ -48,6 +57,8 @@
  - Can you suggest me some questions I can ask you ?
  - What kind of conversations can you hold?
  - I would not know what to ask you.
+ - Can you give me a list of your commands ?
+ - What am I supposed to ask you ?
 ## intent:greet
  - Hello
  - hi
@@ -62,6 +73,7 @@
  - How are things going?
  - What's hanging?
  - How is your mother and your father ?
+ - How is your family?
 ## intent:mood_affirm_deny
  - Yes
  - Indeed
@@ -80,6 +92,7 @@
  - see you later
  - nice talking to you
  - have a nice day
+ - Worth considering
 ## intent:who_are_you
  - Tell me about your author.
  - What is the purpose of this bot?
@@ -96,41 +109,42 @@
  - Who made this chatbot?
  - I would like to have more information about your person.
  - Can I be your friend on facebook ?
- - Does your author have a facebook ?
  - What is the best way to reach you ?
  - What is your email ?
+ - Can you give me your email address?
  - How can I send you a message ?
  - How do I contact you ?
  - Do you use social media ?
  - May I have your telephone number or your Whatsapp?
  - Tell me about yourself.
+ - Are you on instagram or any other social media ?
 ## intent:your_work
  - I am interested in your professional competences.
  - I have a job offer you could be interested in.
- - Do you have experience in technologies related to chatbots ?
  - What is your current role in the company you work for ?
  - How is your employment status ?
  - What is your profession?
  - Can you tell me more about your career?
  - On what project are you currently working ?
  - I would like to know more about your job.
- - Ok, tell me about your work.
  - Have you any experience managing a big project ?
  - Can you see your LinkedIn profile?
  - Are you currently available for employment ?
  - I am trying to fill a position for a Data Scientist and for a Data Engineer.
  - Are you a good Computer Engineer ?
  - So you do have a LinkedIn profile ?
- - Tell me about your work.
  - What about your work ?
- - What is your occupation ?
+ - What is your job ?
+ - In what kind of projects have you been involved so far ?
+ - I have a position that could interest you.
+ - Tell me more about your career
+ - What is your current role in your company ?
 ## intent:your_hobbies
  - Can you tell me about your hobbies ?
  - What are your hobbies ?
  - What do you do in your spare time ?
  - What do you do for fun ?
  - What are your interests outside of work ?
- - I would like to know more about your hobbies.
  - I actually wanted to know about your hobbies.
  - Do you still play chess ?
  - Do you play video-games ?
@@ -144,38 +158,48 @@
  - Do you often go to libraries or bookstores ?
  - How do you spend your time on internet?
  - How do you keep yourself up to date with stuff?
+ - What do you do to let off steam ?
 ## intent:your_music
  - What music do you like ?
+ - What are your musical tastes ?
  - Can you show me your music blogs ?
  - Can you point me to some music videos ?
  - I would like to listen to some music.
  - I heard you have a music blog.
  - Do you like pop music?
- - You listen to russian, polish, croatian and rumanian music.
+ - You listen to russian, polish, croatian and romanian music.
  - What italian or french music do you know?
  - So you have music blogs.
  - Do you ever listen to jazz, rock or heavy metal ?
+ - I am looking for your website listing music videos.
 ## intent:live_origin_where
  - Where do you live?
  - Where are you located?
  - In what town do you live ?
  - Where can I visit you?
- - Where can I find you?
+ - Where are you based ?
  - What is your address ?
+ - Do you live in Germany ?
+ - Are you in Berlin now ?
+ - In what neighborhood do you live ?
  - I want to come to your house.
  - Tell me where you live.
  - What is your current address?
  - Where were you born?
+ - In what country do you live ?
  - What is your country of origin?
  - Where are you from?
  - Are you actually from Italy?
  - Is Verona your town?
  - Where were you actually born?
  - What part of Italy do you come from?
+ - What is the town where you are located?
+ - Do you still live in Germany ?
 ## intent:indiscreet
  - How old are you ?
+ - Are you over forty ?
+ - Are you currently in a relation ?
  - I would like to know your age.
- - Are you an old guy ?
  - Are you still young ?
  - Do you have a girlfriend ?
  - Are you gay?
@@ -191,10 +215,9 @@
  - I love you.
  - I wanna be your wife.
  - Can you send me your naked pictures?
- - May I see your cock?
- - Are you an Italian stallion?
 ## intent:politics_religion
  - What party do you support?
+ - Who did you vote for in the latest elections ?
  - Let's talk about politics.
  - What are your political opinions?
  - Are you a fascist or a communist?
@@ -202,7 +225,6 @@
  - Are you left-wing or right-wing?
  - Are you a liberal, a conservative or a socialist?
  - What do you think of the last elections?
- - What do you think about the latest elections?
  - Do you believe in God?
  - Do you belong to an organized religion?
  - Are you a Satanist?
@@ -226,12 +248,10 @@
  - You are a useless piece of shit.
  - You are not even able to answer a stupid question.
  - Get over yourself, you bitch.
- - What a moron.
  - You are not being very interesting right now.
  - Try harder.
  - You are not helping me much here.
  - I was hoping I could get more useful information from you
- - This chatbot is very disappointing.
  - This bot does not understand a lot.
  - You already told me that.
  - I don't see the point of this chatbot.
@@ -256,18 +276,18 @@
  - What exactly?
  - Why?
  - What else ?
- - Tell me more.
  - Go on.
+ - Can you elaborate a little more ?
 ## intent:travel
  - Have you actually lived in Poland?
  - Have you worked in Cracow, Poland?
  - Have come that you speak Polish?
  - Can you tell me more about the time you spent in Poland?
  - Can you tell me about your travels?
- - What countries have you visited?
  - What countries have you lived in?
  - Where do you plan to go next?
  - Where have you been in vacation?
+ - What is your next destination ?
  - Do you have some photos of your vacations?
  - You like to travel, but where?
  - Do you enjoy hiking?
@@ -296,6 +316,7 @@
  - Do you know a good course about Tensorflow?
  - I would like to read a good tutorial about NLP, that is, about Natural Language Processing.
  - What kind of online course did you attends?
- - What online courses ?
+ - Can you send me some samples of your source code ?
+ - Do you have experience in technologies related to chatbots ?
 
 
