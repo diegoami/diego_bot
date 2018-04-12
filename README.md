@@ -58,7 +58,7 @@ python simple_web_bot.py --fixed_model_name current_sp
 Query
 
 ```
-curl -H "Content-Type: application/json" -X POST localhost:5005/chat/ -d '{ "sender": "default", "message": "Hello"}'
+curl -H "Content-Type: application/json" -X POST localhost:5004/chat/ -d '{ "sender": "default", "message": "Hello"}'
 ```
 
 # DOCKER
