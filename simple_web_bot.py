@@ -8,7 +8,7 @@ import logging
 import argparse
 import logging
 import warnings
-
+import json
 from rasa_core.channels import HttpInputChannel
 from rasa_core import utils
 from rasa_core.agent import Agent
@@ -16,9 +16,10 @@ from rasa_core.interpreter import RasaNLUInterpreter
 from rasa_core.channels.channel import UserMessage
 from rasa_core.channels.direct import CollectingOutputChannel
 from rasa_core.channels.rest import HttpInputComponent
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, request, jsonify, Response
 
-logger = logging.getLogger(__name__)
+
+
 
 
 class SimpleWebBot(HttpInputComponent):
@@ -31,16 +32,26 @@ class SimpleWebBot(HttpInputComponent):
         def health():
             return jsonify({"status": "ok"})
 
+
+
         @custom_webhook.route("/", methods=['POST'])
         def receive():
+
             payload = request.json
-            sender_id = payload.get("sender", None)
-            text = payload.get("message", None)
-            out = CollectingOutputChannel()
-            on_new_message(UserMessage(text, out, sender_id))
-            print(out.messages)
-            responses = [m["text"] if "text" in m else m[1] for m in out.messages]
-            return jsonify(responses)
+            resp = Response({} , status=200, mimetype='application/json')
+            if request.method == 'POST':
+                sender_id = payload.get("sender", None)
+                text = payload.get("message", None)
+                out = CollectingOutputChannel()
+                on_new_message(UserMessage(text, out, sender_id))
+                print(out.messages)
+                responses = [m["text"] if "text" in m else m[1] for m in out.messages]
+                resp = Response(responses , status=200, mimetype='application/json')
+            resp.headers["Access-Control-Allow-Origin"] = "*"
+            resp.headers["Access-Control-Allow-Headers"] = "X-Requested-With"
+            resp.headers["Allow"] = "GET,HEAD,POST,OPTIONS,TRACE"
+            resp.headers["Content-Type"] = "application/json"
+            return resp
 
         return custom_webhook
 

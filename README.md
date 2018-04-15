@@ -52,13 +52,13 @@ python -m rasa_core.run -d models/dialogue -u models/nlu/default/current_sp --de
 Server
 
 ```
-python simple_web_bot.py --fixed_model_name current_sp
+python - rasa_core.server --cors * -d models/dialogue -u models/nlu/default/current_sp --debug -o out.log
 ```
 
 Query
 
 ```
-curl -H "Content-Type: application/json" -X POST localhost:5005/chat/ -d '{ "sender": "default", "message": "Hello"}'
+curl -H "Content-Type: application/json" -X POST localhost:5005/conversations/default/respond -d '{ "query": "Hello"}'
 ```
 
 # DOCKER
@@ -66,5 +66,5 @@ curl -H "Content-Type: application/json" -X POST localhost:5005/chat/ -d '{ "sen
 ```
 docker build -t diego-bot-base --file Dockerfile_base .
 docker build -t diego-bot-modelrun --file Dockerfile_modelrun .
-docker run -p 5004:5004 diego-bot-modelrun
+docker run -p 5004:5004 -p 5000:5000 diego-bot-modelrun
 ```
